@@ -1,16 +1,15 @@
 /*======================================================
 |            CHAT APPLICATION - CLIENT SIDE            |
 |                                                      |
-| Name: client2.c                                      |
+| Name: client.c                                       |
 |                                                      |
-| Written by: Itzel Acevedo Cardenas and               |
-|             Nikolas Gordon - September 2019          |
+| Written by: Itzel Acevedo Cardenas - September 2019  |
 |             Last update - December 2019              |
 |                                                      |
 | Purpose: As a client, connect to the server,         |
 |          and send and receive messages using sockets |
 |                                                      |
-| Usage: ./client2 #username                           |
+| Usage: ./client #username                            |
 |        e.g. ./client2 itzel                          |
 | Description of parameters:                           |
 |     argv[1] - client username, it can be optional,   |
@@ -19,7 +18,7 @@
 |                                                      |
 | Subroutines/Libraries required:                      |
 |     See included statements.                         |
-|     To compile do gcc client2.c -o client2           |
+|     To compile do gcc client.c -o client             |
 ======================================================*/  
 
 /***************************LIBRARIES*****************************/
